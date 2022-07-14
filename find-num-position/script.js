@@ -1,5 +1,6 @@
 // find array num index position
-/* exmple :var a = [2,4,5,3,21]; */
+/* example :var a = [2,4,5,3,21]; */
+
 // create array
 var a = [];
 var numRange = parseInt(prompt('How many Numbers you Want?'));
@@ -8,6 +9,7 @@ for (i = 0; i < numRange; i++){
   a.push(number);
 }
 console.log(a);
+
 //find position
 var store = parseInt(prompt('What Number Position you Want:'));
 for ( i = 0; i < a.length;i++){
